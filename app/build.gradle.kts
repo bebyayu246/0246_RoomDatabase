@@ -43,20 +43,14 @@ dependencies {
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
 
-    // menambahkan depen
-    implementation(libs.lifecycle.viewmodel.compose)
-    implementation(libs.lifecycle.runtime.compose)
-    implementation(libs.navigation.compose)
-
-    //icons
+    // icons
     implementation(libs.compose.icons)
-    //room
+    // room
     implementation(libs.bundles.room)
     ksp(libs.room.compiler)
-    //ViewModel
+    // ViewModel & Navigation
     implementation(libs.lifecycle.viewmodel.compose)
     implementation(libs.lifecycle.runtime.compose)
-    //navigation
     implementation(libs.navigation.compose)
 
     implementation(libs.androidx.compose.ui)
